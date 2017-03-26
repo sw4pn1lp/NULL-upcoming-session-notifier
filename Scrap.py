@@ -1,4 +1,3 @@
-import csv
 import requests
 import os
 from bs4 import BeautifulSoup
@@ -13,17 +12,9 @@ for row in table.find_all('tr'):
         for span in cell.find_all('span',{'class':'label label-success'}):
                t = soup.find_all('a',{'href':'/chapters/1-bangalore'})
 print t
-#print (list_row, sep == '/n')
-#for i in list_bang:
-#    print i
-#print list_bang[1]
-
 count = len(t)-1
 c = str(count)
 print count
-#outfile = open("./inmates.csv", "wb")
-#writer = csv.writer(outfile)
-#writer.writerows(list_row)
 up = 'Upcoming Bangalore Events'
 title = 'Bangalore Upcoming events'
 os.system('notify-send "'+title+" "+c)
