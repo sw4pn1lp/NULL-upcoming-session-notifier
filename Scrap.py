@@ -1,6 +1,8 @@
 import requests
 import os
 from bs4 import BeautifulSoup
+import ctypes
+
 
 url = 'https://null.co.in/upcoming'
 response = requests.get(url)
@@ -14,7 +16,6 @@ for row in table.find_all('tr'):
 print t
 count = len(t)-1
 c = str(count)
-print count
 up = 'Upcoming Bangalore Events'
-title = 'Bangalore Upcoming events'
-os.system('notify-send "'+title+" "+c)
+ctypes.windll.user32.MessageBoxA(0,"Bangalore upcoming Events"+" "+c,up,1)
+
