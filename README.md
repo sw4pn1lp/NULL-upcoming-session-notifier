@@ -1,3 +1,14 @@
 # NULL-upcoming-session-notifier
-Script for Upcoming session notification
-Still working on it
+Script for Upcoming session notification(Windows)
+
+This script is hardcoded For <b>Bangalore</b> , however you can edit as per your City.
+
+For running this script at startup please add this script shortcut in Startup folder
+
+Note :- This script right now only works on windows, i will try to make it compatible with Other OS also.
+
+And second Imp Note :- <b>Please save script with .pyw extension.
+
+1.Create shortcut of script.
+2.Goto Run type <b>shell:startup</b>
+3.Paste the shortcut of script
