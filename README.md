@@ -9,7 +9,7 @@ Note :- This script right now only works on windows, i will try to make it compa
 
 And second Imp Note :- <b>Please save script with .pyw extension.</b>
 <td>
-<tr>1.Create shortcut of script.</tr>
-<tr>2.Goto Run type <b>shell:startup</b><tr>
-<tr>3.Paste the shortcut of script<tr>
+<tr>1.Create shortcut of script.</tr><br />
+<tr>2.Goto Run type <b>shell:startup</b><tr><br />
+<tr>3.Paste the shortcut of script<tr><br />
 
